@@ -25,12 +25,5 @@ jobs:
       - name: Build
         run: bun run build
 
-      - name: Deploy Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: |
-            wrangler pages deploy dist \
-              --project-name "${{ vars.CLOUDFLARE_PAGES_PROJECT }}" \
-              --branch "main"
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
