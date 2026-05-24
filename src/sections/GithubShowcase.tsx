@@ -100,14 +100,7 @@ export default function GithubShowcase({ username }: Props) {
             <p className="text-sm">{contrib.error ?? 'No data'}</p>
           )
         ) : (
-          <div className="overflow-x-auto">
-            <img
-              src={`https://github.com/users/${effectiveUser}/contributions`}
-              alt="GitHub contribution graph"
-              className="max-w-none"
-              loading="lazy"
-            />
-          </div>
+          <p className="text-sm text-gray-500">GitHub token not configured. Set GITHUB_TOKEN in Cloudflare Pages variables.</p>
         )}
       </div>
     </section>

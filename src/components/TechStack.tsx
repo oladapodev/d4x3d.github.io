@@ -3,11 +3,11 @@ import StackIcon from 'tech-stack-icons';
 const items = [
   { name: 'react', label: 'React', bg: 'bg-cyan-200', rotate: 'rotate-1' },
   { name: 'typescript', label: 'TypeScript', bg: 'bg-blue-200', rotate: '-rotate-1' },
-  { name: 'javascript', label: 'JavaScript', bg: 'bg-amber-200', rotate: 'rotate-2' },
+  { name: 'js', label: 'JavaScript', bg: 'bg-amber-200', rotate: 'rotate-2' },
   { name: 'nodejs', label: 'Node.js', bg: 'bg-green-200', rotate: '-rotate-2' },
   { name: 'tailwindcss', label: 'Tailwind', bg: 'bg-emerald-200', rotate: 'rotate-3' },
   { name: 'threejs', label: 'Three.js', bg: 'bg-zinc-200', rotate: '-rotate-3' },
-  { name: 'vitejs', label: 'Vite', bg: 'bg-purple-200', rotate: 'rotate-1' },
+  { name: 'vite', label: 'Vite', bg: 'bg-purple-200', rotate: 'rotate-1' },
   { name: 'nextjs', label: 'Next.js', bg: 'bg-slate-200', rotate: '-rotate-1' },
   { name: 'docker', label: 'Docker', bg: 'bg-sky-200', rotate: 'rotate-2' },
   { name: 'postgresql', label: 'PostgreSQL', bg: 'bg-blue-100', rotate: 'rotate-3' },
