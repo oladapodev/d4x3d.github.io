@@ -21,4 +21,4 @@ binding = \"GITHUB_CACHE\"
 id = \"YOUR_KV_NAMESPACE_ID\"
 
 [triggers]
-crons = [\"*/15 * * * *\"]
+crons = [\"0 */12 * * *\"]  # Every 12 hours - contrib data rarely changes
